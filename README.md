@@ -6,7 +6,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-    body {
+  body {
       font-family: 'Orbitron', sans-serif;
       background-color: #000;
       color: #00ffff;
@@ -50,23 +50,19 @@
       background-color: #00ffff;
       color: #000;
       border: none;
-      padding: 10px 20px;
+  padding: 10px 20px;
       border-radius: 5px;
-      cursor: pointer;
-      margin-top: 10px;
-    }
-    button:hover {
-      background-color: #00aaaa;
-    }
-    #cart {
+   cursor: pointer;
+  margin-top: 10px; } button:hover {
+  background-color: #00aaaa;}
+   #cart {
       margin: 40px auto;
       width: 90%;
       max-width: 500px;
       padding: 20px;
       background-color: #111;
       border: 2px solid #0ff;
-      border-radius: 10px;
-    }
+      border-radius: 10px; }
   </style>
 </head>
 <body>
@@ -80,14 +76,14 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Lightsaber_Blue.svg" alt="Srebrny miecz">
       <h2>Srebrny Miecz</h2>
       <p class="price">100 zł</p>
-      <button onclick="addToCart('Srebrny Miecz', 499)">Dodaj do koszyka</button>
+      <button onclick="addToCart('Srebrny Miecz', 100)">Dodaj do koszyka</button>
     </div>
 
-    <div class="product">
+  <div class="product">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Lightsaber_red.svg" alt="Czarny miecz">
       <h2>Czarny Miecz</h2>
-      <p class="price">549 zł</p>
-      <button onclick="addToCart('Czarny Miecz', 549)">Dodaj do koszyka</button>
+      <p class="price">100 zł</p>
+      <button onclick="addToCart('Czarny Miecz', 100)">Dodaj do koszyka</button>
     </div>
   </div>
 
