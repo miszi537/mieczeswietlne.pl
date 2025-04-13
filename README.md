@@ -79,7 +79,7 @@
     <div class="product">
       <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Lightsaber_Blue.svg" alt="Srebrny miecz">
       <h2>Srebrny Miecz</h2>
-      <p class="price">499 zł</p>
+      <p class="price">100 zł</p>
       <button onclick="addToCart('Srebrny Miecz', 499)">Dodaj do koszyka</button>
     </div>
 
